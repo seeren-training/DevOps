@@ -11,7 +11,7 @@ A chaque commit, un outil peut récupérer notre code source, mettre en place l'
 
 ### 🏷️ **Travis**
 
-* 🔗 [travis](https://travis-ci.org/)
+[Travis](https://travis-ci.org/)
 
 Sur cet outil vous pouvez vous connecter avec votre compte github et ajouter des repositories. Une fois ajouté, dans l'onglet Settings/Webhooks vous devriez voir travis entant que service externe.
 
@@ -25,7 +25,7 @@ ___
 
 Nous pouvons avec Travis spécifier une plate-forme d'exécution et éxécuter des scripts en cas de succès ou d'échec.
 
-**.travis.yml**
+* .travis.yml
 
 ```yml
 language: node_js
@@ -41,6 +41,4 @@ ___
 
 👨🏻‍💻 Manipulation
 
-Ajouter le fichier de configuration de Travis, pousser vers votre répertoire distant et observez votre build.
-
-___
+Ajouter le fichier de configuration de Travis, pousser vers votre répertoire distant et observez votre build

@@ -18,7 +18,7 @@ A chaque build vous pouvez récupérer le contenu en vous rendant dans la liste 
 ### 🏷️ **Tags**
 
 
-* 🔗 [tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+[Tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
 Obtenir la liste des tags
 
@@ -26,13 +26,13 @@ Obtenir la liste des tags
 git tag
 ```
 
-Ajouter un tag
+* Ajouter un tag
 
 ```bash
 git tag 1.0.0 -m "1.0.0"
 ```
 
-Pousser les tags
+* Pousser les tags
 
 ```bash
 git push origin master --tags
@@ -45,5 +45,3 @@ ___
 👨🏻‍💻 Manipulation
 
 Le Scrum Master en local synchronise sa branche dev qui possède un build passing, la fusionne avec sa branche master, ajoute un tag et pousse sa branche master avec les tags.
-
-___

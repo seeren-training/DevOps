@@ -20,13 +20,11 @@ L'idéal serait de mettre en ligne chaque build passing en configurant une actio
 ### 🏷️ **Github Pages**
 
 
-* 🔗 [github pages](https://pages.github.com/)
+[Github pages](https://pages.github.com/)
 
 GitHub propose d'héberger et de maintenir un contenu pour une branche de notre choix. L'hébergment n'interprete pas de langage back-end.
 ___
 
 👨🏻‍💻 Manipulation
 
-Le Scrum Master crée une github page pour la branche master.
-
-___
+Le Scrum Master crée une github page pour la branche master

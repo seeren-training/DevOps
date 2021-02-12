@@ -6,10 +6,6 @@
 * 🔖 **Flow**
 * 🔖 **Feedback**
 * 🔖 **Définitions**
-    * **Assurance qualité (QA)**
-    * **Intégration continue (CI)**
-    * **Livraison continue (CL)**
-    * **Déploiement continu (CD)**
 
 ___
 
@@ -68,5 +64,3 @@ Approche dans laquelle les équipes produisent des logiciels dans des cycles cou
 ### 🏷️ **Déploiement continu (CD)**
 
 Approche dans laquelle les fonctionnalités logicielles sont livrées fréquemment par le biais de déploiements automatisés.
-
-___

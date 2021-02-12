@@ -10,17 +10,18 @@ ___
 
 Il nous faut un environnement de développement.
 
-* 🔗 [vcode](https://code.visualstudio.com/)
+[Vscode](https://code.visualstudio.com/)
 
 Nous allons écrire un test unitaire en utilisant le langage JavaScript dans sa version 6+. Nous avons besoin d'installer un compiler (Babel), un framework de test et des librairies complémentaires (Mocha, Chai, Sinon) puis un couvreur de test (Coveralls). 
 
-*La mise en place de cette stack technique demande une profonde connaissance de cet écosystème.*
+> La mise en place de cette stack technique demande une profonde connaissance de cet écosystème.
 
-* 🔗 [install](https://docs.npmjs.com/cli/install)
+[Install](https://docs.npmjs.com/cli/install)
 
 ```bash
 npm install @babel/cli @babel/core @babel/preset-env @babel/register babel-plugin-istanbul chai coveralls cross-env mocha mocha-lcov-reporter nyc sinon --save-dev
 ```
+
 La commande install install des package dans le dossier `node_modules` et les inscrits dans le fichier `packag.json`. Si vous récupérez un package.json il possédant des dépandances il est possible de toutes les installer avec npm install sans arguments.
 
 ```bash
@@ -29,7 +30,7 @@ npm install
 
 Certains packages demandent un fichier de configuration à la racine du projet.
 
-**.babelrc**
+* .babelrc
 
 ```js
 {
@@ -46,7 +47,7 @@ Certains packages demandent un fichier de configuration à la racine du projet.
 }
 ```
 
-**.nycrc**
+* .nycrc
 
 ```js
 {
@@ -64,7 +65,7 @@ Certains packages demandent un fichier de configuration à la racine du projet.
 
 Pour pouvoir exécuter un test il faut renseigner dans les scripts du fichier `package.json` quel outil est utilisé, avec quelles options et le dossier de destination de nos tests.
 
-**package.json**
+* package.json
 
 ```json
 "scripts": {
@@ -90,7 +91,7 @@ ___
 
  Nous allons écrire une classe qui sera le sujet du test. N'ayant pas encore de base en programmation, prenons ce motif comme une introduction aux prochaines semaines nous permettant de mettre en pratique cette thématique.
 
-**src/calculette.js**
+* src/calculette.js
 
 ```js
 export class Calculette {
@@ -115,7 +116,7 @@ ___
 
 Nous allons écrire un premier test pour cette classe
 
-**test/unit/calculette.spec.js**
+* test/unit/calculette.spec.js
 
 ```js
 import { describe, it } from 'mocha';
@@ -136,7 +137,7 @@ describe('Calculette', () => {
 });
 ```
 
-Exécuter le test
+* Exécuter le test
 
 ```bash
 npm test
@@ -156,7 +157,7 @@ ___
 
 Un test peut ne pas couvrir un code source de manière suffisante, nous allons ajouter une méthode à notre source et observer sa couverture de code.
 
-**src/calculette.js**
+* src/calculette.js
 
 ```js
 //...
@@ -168,7 +169,7 @@ soustrait (operande1, operande2) {
 
 Pour avoir un rapport concernant la couverture de code nous avons les packages suffisant et allons ajouter un script pour l'obtenir.
 
-**package.json**
+* package.json
 
 ```json
 "scripts": {
@@ -179,7 +180,7 @@ Pour avoir un rapport concernant la couverture de code nous avons les packages s
 
 La propriété test est un mot clef ayant un traitement particulier, pour lancer un autre script il faut ajouter run avant le nom du script.
 
-Créer un rapport de couverture
+* Créer un rapport de couverture
 
 ```bash
 npm run coverage
@@ -195,4 +196,4 @@ Générer un rapport de couverture.
 
 ___
 
-La prochaine étape consiste à automatiser le *passing* des tests en automatisant leur éxécution avec un outil d'intégration continue.
+> La prochaine étape consiste à automatiser le *passing* des tests en automatisant leur éxécution avec un outil d'intégration continue.

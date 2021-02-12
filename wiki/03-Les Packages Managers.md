@@ -20,20 +20,21 @@ Chaque langage possède un ou plusieurs gestionnaire de paquet.
 
 ### 🏷️ **JavaScript**
 
-* 🔗 [npm](https://www.npmjs.com/)
-* 🔗 [yarn](https://yarnpkg.com/)
+[Npm](https://www.npmjs.com/)
+
+[Yarn](https://yarnpkg.com/)
 
 ### 🏷️ **Java**
 
-* 🔗 [Maven](https://maven.apache.org/)
-* 🔗 [Ivy](https://ant.apache.org/ivy/)
-* 🔗 [Gradle](https://docs.gradle.org/current/userguide/building_java_projects.html)
+[Maven](https://maven.apache.org/)
+
+[Ivy](https://ant.apache.org/ivy/)
+
+[Gradle](https://docs.gradle.org/current/userguide/building_java_projects.html)
 
 ___
 
 👨🏻‍💻 Manipulation
-
-* 🔗 [nodejs](https://nodejs.org/en/)
 
 Installer Node.js incluant npm.
 
@@ -43,7 +44,7 @@ ___
 
 Quel que soit le package manager, la première étape consiste à initialiser le projet.
 
-* 🔗 [init](https://docs.npmjs.com/cli/init)
+[Init](https://docs.npmjs.com/cli/init)
 
 ```bash
 npm init
@@ -54,5 +55,3 @@ ___
 👨🏻‍💻 Manipulation
 
 Le Scrum master initialise le projet, pousse le contenu et les membres d'équipes synchronisent leur contenus.
-
-___
