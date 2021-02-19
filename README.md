@@ -1,4 +1,4 @@
-# DevOps
+# DevOps - Le mouvement en pratique
 
 ## Durée
 
